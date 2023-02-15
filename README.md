@@ -36,3 +36,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<button
+        className='flex items-center justify-center p-3 bg-blue-600 border border-blue-600 my-2'
+        onClick={() => signIn()}
+      >
+        <FaGithub className='mr-2' />
+        Sign in with<span className='font-bold pl-1'>Google</span>
+      </button>
